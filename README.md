@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 My video Walkthrough:
 
-<img style="max-width:300px;" src="">
+<img style="max-width:300px;" src="Flashcard/Lab4.gif">
 
 GIF created with VEED.io
 
