@@ -1,42 +1,29 @@
-# Project 4 - *Name of App Here*
+# Lab 4 - *Flashcard*
 
-Submitted by: **Your Name Here**
+Submitted by: **Noah Russell**
 
-**Name of your app** is an app that ... [TODO] 
+**Flashcard** is an app that allows users to enhance their learning experience by viewing flashcards and seamlessly toggling between question and answer text. As you swipe left or right to navigate through your deck, the cards' colors will dynamically update to reflect your choices (green or red), making your study sessions more engaging. Need a fresh start? Easily reset the entire deck or focus on cards you’ve marked for more practice. Plus, you can create and add new flashcards to keep your learning material relevant and personalized. Dive in and start mastering your knowledge today! 
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] App loads to display a grid of cards initially placed face-down:
-  - Upon launching the app, a grid of cards should be visible.
-  - Cards are facedown to indicate the start of the game.
-- [ ] Users can tap cards to toggle their display between the back and the face: 
-  - Tapping on a facedown card should flip it to reveal the front.
-  - Tapping a second card that is not identical should flip both back down
-- [ ] When two matching cards are found, they both disappear from view:
-  - Implement logic to check if two tapped cards match.
-  - If they match, both cards should either disappear.
-  - If they don't match, they should return to the facedown position.
-- [ ] User can reset the game and start a new game via a button:
-  - Include a button that allows users to reset the game.
-  - This button should shuffle the cards and reset any game-related state.
+- [ ] View a flashcard and toggle between the card's question and answer text
+- [ ] Understand the effects of swiping left or right by updating the cards color as the user swipes
+- [ ] Swipe left and right to progress though the deck
+- [ ] Reset the deck with all the cards or only cards they've categorized as needing more practice
+- [ ] Create new flashcards and add them to the deck
  
 The following **optional** features are implemented:
 
-- [ ] User can select number of pairs to play with (at least 2 unique values like 2 and 4).
-  * (Hint: user Picker)
-- [ ] App allows for user to scroll to see pairs out of view.
-  * (Hint: Use a Scrollview)
-- [ ] Add any flavor you’d like to your UI with colored buttons or backgrounds, unique cards, etc. 
-  * Enhance the visual appeal of the app with colored buttons, backgrounds, or unique card designs.
-  * Consider using animations or transitions to make the user experience more engaging.
+- [ ] Save cards so they're available across app launches
+- [ ] Delete cards
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] N/A
 
 ## Video Walkthrough
 
@@ -48,11 +35,11 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Very simple and easy to create. I will definitely be using this flashcard app on my own for some study sessions. Very fun working with SwiftUI for the first time. I'm hoping the more I work with it, the better I can become.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Noah Russell]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
