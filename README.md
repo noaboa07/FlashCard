@@ -10,16 +10,16 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] View a flashcard and toggle between the card's question and answer text
-- [ ] Understand the effects of swiping left or right by updating the cards color as the user swipes
-- [ ] Swipe left and right to progress though the deck
-- [ ] Reset the deck with all the cards or only cards they've categorized as needing more practice
-- [ ] Create new flashcards and add them to the deck
+- [✔️] View a flashcard and toggle between the card's question and answer text
+- [✔️] Understand the effects of swiping left or right by updating the cards color as the user swipes
+- [✔️] Swipe left and right to progress though the deck
+- [✔️] Reset the deck with all the cards or only cards they've categorized as needing more practice
+- [✔️] Create new flashcards and add them to the deck
  
 The following **optional** features are implemented:
 
-- [ ] Save cards so they're available across app launches
-- [ ] Delete cards
+- [✖️] Save cards so they're available across app launches
+- [✖️] Delete cards
 
 The following **additional** features are implemented:
 
@@ -27,11 +27,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+My video Walkthrough:
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
+<img style="max-width:300px;" src="">
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+GIF created with VEED.io
 
 ## Notes
 
