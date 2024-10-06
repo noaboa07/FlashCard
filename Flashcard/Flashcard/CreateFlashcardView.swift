@@ -23,10 +23,10 @@ struct CreateFlashcardView: View {
             }
             VStack { // <-- VStack for the text fields
                 // Question text field
-                TextField("Add a question...", text: $questionText, axis: .vertical) // <-- Pass in $questionText as binding using `$`
+                TextField("Add a question... (Noah Russell)", text: $questionText, axis: .vertical) // <-- Pass in $questionText as binding using `$`
 
                 // Answer text field
-                TextField("Add an answer...", text: $answerText, axis: .vertical) // <-- Vertical axis allows text to wrap and expand vertically
+                TextField("Add an answer... (Z236667779)", text: $answerText, axis: .vertical) // <-- Vertical axis allows text to wrap and expand vertically
             }
             .textFieldStyle(.roundedBorder) // <-- Apply a textfield style with rounded border to both text fields
             .font(.title) // <-- Apply title font to both text fields

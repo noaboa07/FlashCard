@@ -1,6 +1,6 @@
 # Lab 4 - *Flashcard*
 
-Submitted by: **Noah Russell**
+Submitted by: **Noah Russell** ZNumber: **23667779**
 
 **Flashcard** is an app that allows users to enhance their learning experience by viewing flashcards and seamlessly toggling between question and answer text. As you swipe left or right to navigate through your deck, the cards' colors will dynamically update to reflect your choices (green or red), making your study sessions more engaging. Need a fresh start? Easily reset the entire deck or focus on cards you’ve marked for more practice. Plus, you can create and add new flashcards to keep your learning material relevant and personalized. Dive in and start mastering your knowledge today! 
 
