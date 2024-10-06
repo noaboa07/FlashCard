@@ -23,7 +23,7 @@
 		A3FB01962CB1F06900DD0358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3FB019D2CB1F4E600DD0358 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A3FB019F2CB2109800DD0358 /* CreateFlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFlashcardView.swift; sourceTree = "<group>"; };
-		A3FB01A12CB2120700DD0358 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A3FB01A22CB2123E00DD0358 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		A3FB01832CB1F06700DD0358 = {
 			isa = PBXGroup;
 			children = (
-				A3FB01A12CB2120700DD0358 /* README.md */,
+				A3FB01A22CB2123E00DD0358 /* README.md */,
 				A3FB018E2CB1F06700DD0358 /* Flashcard */,
 				A3FB018D2CB1F06700DD0358 /* Products */,
 			);
