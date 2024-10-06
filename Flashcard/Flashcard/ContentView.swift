@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var cardsToPractice: [Card] = [] // <-- Store cards removed from cards array
     @State private var cardsMemorized: [Card] = [] // <--
     @State private var deckId: Int = 0
+    @State private var createCardViewPresented = false
     var body: some View {
     
 
@@ -47,6 +48,16 @@ struct ContentView: View {
             }
             .animation(.bouncy, value: cards)
             .id(deckId) // <-- Add an id modifier to the main card deck ZStack
+            .sheet(isPresented: $createCardViewPresented, content: {
+                Text("Create cards here...")
+            }
+                   )
+            .frame(maxWidth: .infinity, maxHeight: .infinity) // <-- Force the ZStack frame to expand as much as possible (the whole screen in this case)
+            .overlay(alignment: .topTrailing) { // <-- Add an overlay modifier with top trailing alignment for its contents
+                Button("Add Flashcard", systemImage: "plus") {  // <-- Add a button to add a flashcard
+                    createCardViewPresented.toggle() // <-- Toggle the createCardViewPresented value to trigger the sheet to show
+                }
+            }
         }
 }
 
