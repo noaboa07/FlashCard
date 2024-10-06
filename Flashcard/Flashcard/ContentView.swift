@@ -49,9 +49,10 @@ struct ContentView: View {
             .animation(.bouncy, value: cards)
             .id(deckId) // <-- Add an id modifier to the main card deck ZStack
             .sheet(isPresented: $createCardViewPresented, content: {
-                Text("Create cards here...")
-            }
-                   )
+                CreateFlashcardView { card in
+                    cards.append(card)
+                }
+            })
             .frame(maxWidth: .infinity, maxHeight: .infinity) // <-- Force the ZStack frame to expand as much as possible (the whole screen in this case)
             .overlay(alignment: .topTrailing) { // <-- Add an overlay modifier with top trailing alignment for its contents
                 Button("Add Flashcard", systemImage: "plus") {  // <-- Add a button to add a flashcard
