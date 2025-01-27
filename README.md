@@ -1,54 +1,71 @@
-# Lab 4 - *Flashcard*
+# Flashcard - A Personalized Learning Tool
 
-Submitted by: **Noah Russell** ZNumber: **23667779**
+**Flashcard** is an intuitive study app designed to help users enhance their learning experience through interactive flashcards. With seamless navigation and dynamic color changes (green for correct, red for incorrect), this app provides a fun and engaging way to review material. Users can create their own flashcards, toggle between the question and answer text, and even reset the deck to focus on more challenging cards. Whether you're studying for exams or mastering new skills, Flashcard makes learning more effective and enjoyable.
 
-**Flashcard** is an app that allows users to enhance their learning experience by viewing flashcards and seamlessly toggling between question and answer text. As you swipe left or right to navigate through your deck, the cards' colors will dynamically update to reflect your choices (green or red), making your study sessions more engaging. Need a fresh start? Easily reset the entire deck or focus on cards you’ve marked for more practice. Plus, you can create and add new flashcards to keep your learning material relevant and personalized. Dive in and start mastering your knowledge today! 
+- Developer: Noah Russell
+- Development Time: Approximately 3 hours
+- Technologies Used: Swift, SwiftUI, Xcode
 
-Time spent: **3** hours spent in total
+## Features
 
-## Required Features
+The following required features have been successfully implemented:
 
-The following **required** functionality is completed:
+- [✅] Flashcard Navigation: Users can view a flashcard and toggle between the card's question and answer text with a simple tap.
+- [✅] Swipe Navigation: Users can swipe left or right to progress through the deck, with color changes reflecting the user's choices (green for correct, red for incorrect).
+- [✅] Reset Deck: Users can reset the entire deck or focus only on the cards marked for more practice.
+- [✅] Create New Flashcards: Users can create and add new flashcards to the deck, making the app customizable to individual learning needs.
 
-- [✔️] View a flashcard and toggle between the card's question and answer text
-- [✔️] Understand the effects of swiping left or right by updating the cards color as the user swipes
-- [✔️] Swipe left and right to progress though the deck
-- [✔️] Reset the deck with all the cards or only cards they've categorized as needing more practice
-- [✔️] Create new flashcards and add them to the deck
- 
-The following **optional** features are implemented:
+## Optional Features
 
-- [✖️] Save cards so they're available across app launches
-- [✖️] Delete cards
+The following optional features were planned but not yet implemented:
 
-The following **additional** features are implemented:
+- [❌] Save Cards Across Sessions: Persisting flashcards across app launches to allow users to maintain their deck over time.
+- [❌] Delete Cards: Functionality to remove cards from the deck.
 
-- [ ] N/A
+## Future Enhancements
+
+The app can be expanded with additional features such as:
+
+- [🔲] Card Persistence: Save flashcards across sessions and restore them upon app launch.
+- [🔲] Card Deletion: Add the ability to delete flashcards from the deck.
+- [🔲] Quiz Mode: Implement a quiz mode where users can test themselves with a timer or scoring system.
+- [🔲] Statistics Tracking: Track which cards the user struggles with the most and suggest them for review.
 
 ## Video Walkthrough
 
-My video Walkthrough:
+Here’s a video walkthrough demonstrating the app’s core functionality:
 
-<img style="max-width:300px;" src="Flashcard/Lab4.gif">
+<img style="max-width:300px;" src="Flashcard/Lab4.gif" alt="Flashcard Demo">
+GIF created with VEED.io.
 
-GIF created with VEED.io
+## Development Process
 
-## Notes
+This project was developed using SwiftUI, which was my first time using this framework. The following concepts were integral to the app’s development:
 
-Very simple and easy to create. I will definitely be using this flashcard app on my own for some study sessions. Very fun working with SwiftUI for the first time. I'm hoping the more I work with it, the better I can become.
+- Flashcard Navigation: Implemented using SwiftUI's Gesture recognizers for swiping and tapping.
+- State Management: Used SwiftUI’s @State to manage the deck’s state and flashcard progress.
+- UI Design: Focused on simple, clean, and functional UI design to enhance the learning experience.
+
+## Challenges Faced
+
+- Learning SwiftUI: This was my first time working with SwiftUI, which introduced a learning curve in managing state and creating a dynamic user interface.
+- State Reset: Implementing a feature to reset the deck and track the progress of individual cards was a bit tricky but ultimately rewarding.
+
+## Key Takeaways
+
+- Learned the basics of SwiftUI and its declarative syntax for creating user interfaces.
+- Gained experience working with Gestures and State Management in SwiftUI.
+- Improved skills in designing intuitive, interactive UIs that enhance user experience.
+
+## Technologies Used
+
+- Programming Language: Swift
+- Framework: SwiftUI
+- Development Environment: Xcode 14.0+
+- Version Control: Git, GitHub
 
 ## License
 
-    Copyright [2024] [Noah Russell]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Flashcard is licensed under the Apache License 2.0.
+You may obtain a copy of the license at:
+http://www.apache.org/licenses/LICENSE-2.0
